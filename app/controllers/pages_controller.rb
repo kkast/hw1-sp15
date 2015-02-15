@@ -9,5 +9,6 @@ class PagesController < ApplicationController
 		@major="CS L&S"
 		@age=11
 		@favSong="My Number by Foals"
+		render "about"
 	end
 end
